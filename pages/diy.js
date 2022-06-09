@@ -45,7 +45,8 @@ export default function diy() {
           <div className="profile_art">
             <p>ジュワッ！！<br/>私は光の国から来たウルトラマンだ
             </p>
-              <Image src={ultraman}  alt="ultraman"/>
+            
+            <Image src={shuwa} alt="shuwa"/>
             <p>訳あって今は皆塚という男と肉体を共有している
             <br/>
             <br/>ん？いつもの皆塚はこんな見た目していないって？
@@ -64,7 +65,7 @@ export default function diy() {
             <br/><a href="https://www.thingiverse.com/thing:2969438"><b><u>私が使用したファイル</u></b></a>
             <br/>
             <br/>そして気に入らない部分はblenderなどを使って自分でモデリングしよう！
-            <Image src={shuwa} alt="shuwa"/>
+            <Image src={me} alt="me"/>
             <br/>モデルが用意できたら3dプリンター用のスライサーソフトでプリント用データに変換だ
             <br/>あとは3Dプリンターで印刷して第一段階は完了だ
             <br/>
@@ -78,13 +79,15 @@ export default function diy() {
             <br/>だからマジックテープを介して接着する。
             <br/>
             <br/>最後は目にLEDを実装しよう
+            
             <Image src={hannda} alt="hannda"/>
             <br/>100均の高輝度ライトを分解してledのついた基盤を目の裏に貼り付ける
             <br/>ただ電池式だと重いしかさばるしめんどうだ、
             <br/>だからノートpcからもぎ取った18650バッテリーにTP4056充電器モジュールとDC-DC昇圧コンバータをつなげusbで充電できるようにする。
             <br/>
             <br/>できたマスクをかぶれば君もウルトラマンだ！
-            <Image src={me} alt="me"/>
+            
+            <Image src={ultraman}  alt="ultraman"/>
             <br/>
             </p>
           </div>
