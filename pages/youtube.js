@@ -52,7 +52,7 @@ export default function youtube() {
             <p>この授業がきっかけで始めたチャンネルなのでチャンネル</p>
             <Image src={prtsc}alt="icon"/>
             <div className="back">
-          <a href="./"><Image src={youtubelink} width={130} height={130} alt="back"/><br/>YouTubeチャンネル<br/>のリンク</a>
+          <a href="https://www.youtube.com/channel/UCNvGbgHThNikpbiiPoWdvzQ"><Image src={youtubelink} width={130} height={130} alt="back"/><br/>YouTubeチャンネル<br/>のリンク</a>
         </div>
           </div>
         </div>

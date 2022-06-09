@@ -6,6 +6,7 @@ import icon from '../images/icon.jpg'
 import ultraman from '../images/ultraman.jpg'
 import kuturogi from '../images/kuturogi.jpg'
 import me from '../images/me.jpg'
+import shuwa from '../images/shuwa.jpg'
 import hannda from '../images/hannda.jpg'
 import back from '../images/back.png'
 import Link from 'next/link'
@@ -63,7 +64,7 @@ export default function diy() {
             <br/><a href="https://www.thingiverse.com/thing:2969438"><b><u>私が使用したファイル</u></b></a>
             <br/>
             <br/>そして気に入らない部分はblenderなどを使って自分でモデリングしよう！
-            <Image src={me} alt="me"/>
+            <Image src={shuwa} alt="shuwa"/>
             <br/>モデルが用意できたら3dプリンター用のスライサーソフトでプリント用データに変換だ
             <br/>あとは3Dプリンターで印刷して第一段階は完了だ
             <br/>
@@ -77,13 +78,13 @@ export default function diy() {
             <br/>だからマジックテープを介して接着する。
             <br/>
             <br/>最後は目にLEDを実装しよう
+            <Image src={hannda} alt="hannda"/>
             <br/>100均の高輝度ライトを分解してledのついた基盤を目の裏に貼り付ける
             <br/>ただ電池式だと重いしかさばるしめんどうだ、
-            <br/>だからノートpcからもぎ取った18650バッテリーにTP4056充電器モジュールとDC-DC昇圧コンバータをつなげ
-usbで充電できるようにする。
-            <Image src={hannda} alt="hannda"/>
+            <br/>だからノートpcからもぎ取った18650バッテリーにTP4056充電器モジュールとDC-DC昇圧コンバータをつなげusbで充電できるようにする。
             <br/>
             <br/>できたマスクをかぶれば君もウルトラマンだ！
+            <Image src={me} alt="me"/>
             <br/>
             </p>
           </div>
