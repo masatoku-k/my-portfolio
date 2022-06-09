@@ -21,7 +21,7 @@ export default function picture() {
   return (
     <div className={styles.main}>
       <header>
-        <a href="./">
+      <Link href="./">
           <div className="header">
             <div className="header_icon">
               <Image src={icon} width={60} height={60} alt="small icon"/>
@@ -30,7 +30,7 @@ export default function picture() {
               まーくんの部屋
             </p>
           </div>
-        </a>
+        </Link>
       </header>
       <div className="profile">
         <div className="koumoku">
@@ -47,7 +47,7 @@ export default function picture() {
           </div>
         </div>
         <div className="back">
-          <a href="./"><Image src={back} width={50} height={50} alt="back"/><br/>ホームに戻る</a>
+        <Link href="./"><Image src={back} width={50} height={50} alt="back"/><br/>ホームに戻る</Link>
         </div>
       </div>
       </div>
