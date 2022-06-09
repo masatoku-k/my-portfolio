@@ -7,6 +7,7 @@ import youtubelink from '../images/youtube.webp'
 import prtsc from '../images/prtsc.jpg'
 import icon from '../images/icon.jpg'
 import back from '../images/back.png'
+import Link from 'next/link'
 /*
 git config user.email "akaharaimori2000@gmail.com"git config user.name "masatoku-k"
 git add -A
