@@ -15,32 +15,32 @@ npm run dev
 C:\Users\ia21021\my-portfolio
 npm run dev   ローカルで表示
 <Image src={real} width={200} height={200} alt="this is masatoku"/>
-<div className={styles.main}>*/
+<div classNameName={styles.main}>*/
 
 export default function pets() {
   return (
     <div className={styles.main}>
       <header>
         <a href="./">
-          <div class="header">
-            <div class="header_icon">
+          <div className="header">
+            <div className="header_icon">
               <Image src={icon} width={60} height={60} alt="small icon"/>
             </div>
-            <p class="header_title">
+            <p className="header_title">
               まーくんの部屋
             </p>
           </div>
         </a>
       </header>
-      <div class="profile">
-        <div class="koumoku">
-          <div class="profile_header">
+      <div className="profile">
+        <div className="koumoku">
+          <div className="profile_header">
             <h2>ペット</h2>
           </div>
-          <div class="profile_art">
+          <div className="profile_art">
             <p>今は飼っている生き物はそれほど多くないが、昔は色々ないきものを飼育していたのでどれほど飼っていたのか一覧にしてみたいと思う</p>
             <h3>現在飼っている動物</h3>
-            <div class="koumoku_list">
+            <div className="koumoku_list">
               <li>雑種犬</li>
               <li>グッピー</li>
               <li>クサガメ</li>
@@ -48,7 +48,7 @@ export default function pets() {
               <li>シマドジョウ</li>
             </div>
             <h3>過去（１週間以上飼育した動物、昔のことなので間違いの可能性あり）</h3>
-            <div class="koumoku_list">
+            <div className="koumoku_list">
               <li>フナ</li>
               <li>クチボソ（正式名称知らない）</li>
               <li>ブルーギル</li>
@@ -105,7 +105,7 @@ export default function pets() {
             <p>多！人生で初めて列挙してみたがこんなにいたのか<br/>、、、なんでこんなに飼ってたの？</p>
           </div>
         </div>
-        <div class="back">
+        <div className="back">
           <a href="./"><Image src={back} width={50} height={50} alt="back"/><br/>ホームに戻る</a>
         </div>
       </div>

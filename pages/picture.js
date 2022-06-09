@@ -15,29 +15,29 @@ npm run dev
 C:\Users\ia21021\my-portfolio
 npm run dev   ローカルで表示
 <Image src={real} width={200} height={200} alt="this is masatoku"/>
-<div className={styles.main}>*/
+<div classNameName={styles.main}>*/
 
 export default function picture() {
   return (
     <div className={styles.main}>
       <header>
         <a href="./">
-          <div class="header">
-            <div class="header_icon">
+          <div className="header">
+            <div className="header_icon">
               <Image src={icon} width={60} height={60} alt="small icon"/>
             </div>
-            <p class="header_title">
+            <p className="header_title">
               まーくんの部屋
             </p>
           </div>
         </a>
       </header>
-      <div class="profile">
-        <div class="koumoku">
-          <div class="profile_header">
+      <div className="profile">
+        <div className="koumoku">
+          <div className="profile_header">
             <h2>イラスト</h2>
           </div>
-          <div class="profile_art">
+          <div className="profile_art">
             <p>最近は他の趣味で忙しくてイラストを描く時間がなかなか作れないが、イラスト制作は昔から続いている趣味の一つだ。<br/><br/>
               色々自慢したいがpixivのアカウントがバレるのはなんとしても避けたいのでガチで描いたイラストはお見せできない、
               なので去年製作したVTuverの月ノ美兎さんの二次創作作品を載せておこうと思う。
@@ -46,7 +46,7 @@ export default function picture() {
             <p>雲や翼もちゃんと手書きです</p>
           </div>
         </div>
-        <div class="back">
+        <div className="back">
           <a href="./"><Image src={back} width={50} height={50} alt="back"/><br/>ホームに戻る</a>
         </div>
       </div>

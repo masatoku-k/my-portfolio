@@ -22,37 +22,37 @@ ctrl+c
 C:\Users\ia21021\my-portfolio
 npm run dev   ローカルで表示
 <Image src={real} width={200} height={200} alt="this is masatoku"/>
-<div className={styles.main}>*/
+<div classNameNameName={styles.main}>*/
 
 export default function Home() {
   return (
     <div className={styles.main}>
       <header>
-        <div class="header">
-          <div class="header_icon">
+        <div className="header">
+          <div className="header_icon">
             <Image src={icon} width={60} height={60} alt="small icon"/>
           </div>
-          <p class="header_title">
+          <p className="header_title">
             まーくんの部屋
           </p>
         </div>
       </header>
 
-      <div class="name">
-        <div class="name_img">
+      <div className="name">
+        <div className="name_img">
           <Image src={real} width={200} height={250} alt="this is masatoku"/>
         </div>
-        <div class="name_name">
-          <div class="name_furigana">
+        <div className="name_name">
+          <div className="name_furigana">
             <p>カイヅカ マサトク</p>
           </div>
-          <div class="masatoku">
+          <div className="masatoku">
             <h1>皆塚昌徳</h1>
           </div>
-          <div class="gakka">
+          <div className="gakka">
             <h2>情報学部 情報社会学科 ２年</h2>
           </div>
-          <div class="zikoshoukai">
+          <div className="zikoshoukai">
             <p>ミナヅカと呼ばれたり、貝塚と書かれることには慣れている。
             <br/>ちなみにこの苗字は40人くらいしかおらず、
             <br/>若い男の皆塚は今のところ自分以外確認できていないため
@@ -64,28 +64,28 @@ export default function Home() {
         </div>
       </div>
 
-      <div class="profile">
-        <div class="koumoku">
-          <div class="profile_header">
+      <div className="profile">
+        <div className="koumoku">
+          <div className="profile_header">
             <h2>所属しているサークルなど</h2>
           </div>
-          <div class="koumoku_list">
+          <div className="koumoku_list">
             <li><b>KSC（キッズサイエンスカフェ）</b><br/>小学生などに工作を教えるサークル</li>
             <li><b>Cue-FM</b><br/>ラジオサークル、あまり参加できてない</li>
             <li><b>ITソルーション室（サークルではない）</b><br/>PC相談室的なところ</li>
           </div>
         </div>
-        <div class="koumoku">
-          <div class="profile_header">
+        <div className="koumoku">
+          <div className="profile_header">
             <h2>生息地</h2>
           </div>
-          <div class="profile_art">
+          <div className="profile_art">
             <p>普段はTwitterに生息<br/>
             SNS系のアカウントは基本的に名前は「まーくん」、アイコンは上のイラストを使用している<br/>
             このイラストは友人に描いてもらった僕のイラストを参考に自分で描き直したもの<br/><br/>
-            <a href="https://twitter.com/markn_chansan" class="profile_Twitter">僕のTwitterアカウント</a><br/><br/>
+            <a href="https://twitter.com/markn_chansan" className="profile_Twitter">僕のTwitterアカウント</a><br/><br/>
             </p>
-            <div class="profile_icon">
+            <div className="profile_icon">
               <Image src={icon} width={200} height={200} alt="icon"/>
             </div>
             <p>
@@ -95,20 +95,20 @@ export default function Home() {
             
           </div>
         </div>
-        <div class="koumoku">
-          <div class="profile_header">
+        <div className="koumoku">
+          <div className="profile_header">
             <h2>将来の夢</h2>
           </div>
-          <div class="profile_art">
+          <div className="profile_art">
             <p>・・・なんだろう、何ならなれるのか？</p>
           </div>
         </div>
 
-        <div class="hobby">
-        <div class="profile_header">
+        <div className="hobby">
+        <div className="profile_header">
             <h2>趣味</h2>
             </div>
-          <div class="hobby_list">
+          <div className="hobby_list">
             <li><a href="/picture"><Image src={icon} width={100} height={100} alt="small icon"/><br/>イラスト</a></li>
             <li><a href="/pets"><Image src={pet} width={100} height={100} alt="ペット"/><br/>ペット</a></li>
             <li><a href="/youtube"><Image src={youtubelink} width={100} height={100} alt="YouTube"/><br/>youtube</a></li>
