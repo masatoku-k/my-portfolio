@@ -24,16 +24,16 @@ export default function youtube() {
   return (
     <div className={styles.main}>
       <header>
-      <Link href="./">
+      
           <div className="header">
             <div className="header_icon">
-              <Image src={icon} width={60} height={60} alt="small icon"/>
+            <Link href="./"><Image src={icon} width={60} height={60} alt="small icon"/></Link>
             </div>
             <p className="header_title">
               まーくんの部屋
             </p>
           </div>
-        </Link>
+        
       </header>
       <div className="profile">
         <div className="koumoku">
@@ -57,7 +57,7 @@ export default function youtube() {
           </div>
         </div>
         <div className="back">
-        <Link href="./"><Image src={back} width={50} height={50} alt="back"/><br/>ホームに戻る</Link>
+        <Link href="./"><Image src={back} width={50} height={50} alt="back"/></Link>
         </div>
       </div>
       </div>

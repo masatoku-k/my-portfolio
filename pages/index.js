@@ -110,10 +110,10 @@ export default function Home() {
             <h2>趣味</h2>
             </div>
           <div className="hobby_list">
-            <li><Link href="/picture"><Image src={icon} width={100} height={100} alt="small icon"/><br/>イラスト</Link></li>
-            <li><Link href="/pets"><Image src={pet} width={100} height={100} alt="ペット"/><br/>ペット</Link></li>
-            <li><Link href="/youtube"><Image src={youtubelink} width={100} height={100} alt="YouTube"/><br/>youtube</Link></li>
-            <li><Link href="/diy"><Image src={ultra} width={100} height={100} alt="diy"/><br/>工作</Link></li>
+            <li><Link href="/picture"><Image src={icon} width={100} height={100} alt="small icon"/></Link></li>
+            <li><Link href="/pets"><Image src={pet} width={100} height={100} alt="ペット"/></Link></li>
+            <li><Link href="/youtube"><Image src={youtubelink} width={100} height={100} alt="YouTube"/></Link></li>
+            <li><Link href="/diy"><Image src={ultra} width={100} height={100} alt="diy"/></Link></li>
           </div>
         </div>
       </div>
