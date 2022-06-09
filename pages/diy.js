@@ -8,6 +8,7 @@ import kuturogi from '../images/kuturogi.jpg'
 import me from '../images/me.jpg'
 import hannda from '../images/hannda.jpg'
 import back from '../images/back.png'
+import Link from 'next/link'
 /*
 git config user.email "akaharaimori2000@gmail.com"git config user.name "masatoku-k"
 git add -A
